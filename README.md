@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Compression methods summary</h1>
+<h1 align="center">String Compression Methods Summary</h1>
 
 <p align="center">
   </a>
