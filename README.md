@@ -41,7 +41,7 @@ The first function of this program is encoding the input file by four different 
 
 1. Run Length Encoding (RL encoding)
    
-   This is a very simple algorithm for lossless compression. It replaces repeated bytes with a simple description of the repeated characters and the number of times they are repeated; for example, if the input string is “aaabbab”, the output of RL encoding is “3a2bab”. Consequently, the method will have a bad compression rate when dealing with a non-repeating string. Although simple and very inefficient for normal compression, it can sometimes be very useful (eg. JPEG).
+   This is a very simple algorithm for lossless compression. It replaces repeated bytes with a simple description of the repeated characters and the number of times they are repeated; for example, if the input string is “aaabba”, the output of RL encoding is “3a2b1a”. Consequently, the method will have a bad compression rate when dealing with a non-repeating string. Although simple and very inefficient for normal compression, it can sometimes be very useful (eg. JPEG).
 
 
 2. Arithmetic Encoding
