@@ -210,7 +210,7 @@ If using GCC, please compile with "g++ compression.cpp -std=c++20 -o compression
 1. This program can accept any format file as the input file, but the main purpose of this program is ranking string compression methods, for another format file, it may have a bad result, the output file size may be larger than the original file size.
 2. Due to the limit of the double type of c++. The arithmetic coding will be not accurate when dealing with a big file. The results are for reference only.
 3. The compression rates used to rank methods are calculated theoretically, the compression rate in practice will be worse. For example, the arithmetic encoding needs to store the occurrence probability of every letter. The LZW encoding needs to store the original dictionary. This compression rate only can be used for research purposes.
-4. There are two sample inputs, in the “inefficient_input.txt”, which contains a string of non-repeating letters, methods will have a bad result of this sample input. In the “efficient_input.txt”, which contains a highly repeated string. Methods will have a good result for this sample input. Also, there are two sample image inputs, they can be used as different types of input files.
+4. There are two sample inputs, in the “inefficient_input.txt”, which contains a string of non-repeating letters, methods will have a bad result of this sample input. In the “efficient_input.txt”, which contains a highly repetitive string. Methods will have a good result for this sample input. Also, there are two sample image inputs, they can be used as different types of input files.
 
 
 
