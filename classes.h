@@ -182,6 +182,7 @@ private:
  * @brief LZW method to compress the input string
  * 
  * @param str The string needs to be compressed
+ * @param show decide to show the result or not
  * @return double compression rate
  */
 double lzw_encode(const string &str, const bool &show)
@@ -980,6 +981,7 @@ public:
  * @brief To encode the input string by RLencode method
  * 
  * @param str input string
+ * @param show decide to show the result or not
  * @return double the compression rate of RLencode method
  */
 double RLencode(const string &str, const bool &show)
